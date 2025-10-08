@@ -1,25 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --color-primary-orange:#EA6D27;
-    --color-secundary-white:#FFFFFF;
+:root {
+    --color-primary-orange: #EA6D27;
+    --color-primary-orange-10: rgb(234, 111, 39, 0.1
+);
+    --color-secundary-white: #FFFFFF;
     --color-secundary-dark: #101821;
     --color-secundary-gray: #5C6574;
-    --color-alerts-red:#770000;
-    --color-alerts-green:#004E05;
+    --color-alerts-red: #770000;
+    --color-alerts-green: #004E05;
 
-    --font-headline-h1-size:60px;
-    --font-headline-h2-size:48px;
-    --font-headline-h3-size:28px;
-    --font-headline-h1-size:22px;
-    --font-body-size:16px;
+    --font-headline-h1-size: 60px;
+    --font-headline-h2-size: 48px;
+    --font-headline-h3-size: 28px;
+    --font-headline-h4-size: 22px;
+    --font-body-size: 16px;
     --font-button-size: 20px;
 
-    --font-title:"David Libre", serif;
-    --font-body:"Inter", sans-serif;
+    --font-title: "David Libre", serif;
+    --font-body: "Inter", sans-serif;
 }
+
+.btn-secundary, .btn-primary {
+    padding: 12px 30px;
+    color: white;
+    border-radius: 15px 3px;
+    text-decoration: none;
+    font-family: var(--font-title);
+}
+
+
+.btn-primary {
+    background-color: var(--color-primary-orange);
+}
+
+.btn-secundary{
+    background-color: var(--color-secundary-dark);
+}
+
+
+h2{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h2-size);
+
+}
+

@@ -1,2 +1,179 @@
 @import url("./global.css");
 
+header {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+
+}
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-header ul li a {
+    color: var(--color-secundary-dark);
+    text-decoration: none;
+    font-family: var(--font-body);
+}
+
+.btn-header {
+    color: var(--color-secundary-white);
+    padding: 12px 30px;
+    text-decoration: none;
+    font-family: var(--font-tittle);
+    background-color: var(--color-primary-orange);
+    border-radius: 15px 3px;
+    font-size: var(--font-button-size);
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 60px 0px;
+}
+
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+h1 {
+    font-size: var(--font-headline-h1-size);
+    font-family: var(--font-title);
+    width: 562px;
+    color: var(--color-secundary-dark);
+
+}
+
+.highlighted-word {
+
+    color: var(--color-primary-orange);
+}
+
+.content-main P {
+    font-size: var(--font-body-size);
+    color: var(--color-secundary-gray);
+    font-family: var(--font-body);
+    width: 544px;
+    line-height: 30px;
+}
+
+
+.section-differences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary-orange-10);
+    padding: 60px 0px;
+    gap: 40px;
+}
+
+.differences-cards-container{
+    display: flex;
+    gap: 70px;
+
+}
+
+.differences-card-tomato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding:20px;
+    border:1px solid var(--color-secundary-gray);
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+.differences-card-tomato h3{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    width: 181px;
+}
+ 
+.differences-card-tomato p{
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
+.differences-card-chef{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding:20px;
+    border:1px solid var(--color-secundary-gray);
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+.differences-card-chef h3{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    width: 181px;
+}
+ 
+.differences-card-chef p{
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
+.differences-card-chair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding:20px;
+    border:1px solid var(--color-secundary-gray);
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+.differences-card-chair h3{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    width: 181px;
+}
+ 
+.differences-card-chair p{
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
+.differences-card-calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding:20px;
+    border:1px solid var(--color-secundary-gray);
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+.differences-card-calendar h3{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    width: 181px;
+}
+ 
+.differences-card-calendar p{
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
