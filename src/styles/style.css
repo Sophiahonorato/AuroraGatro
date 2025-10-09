@@ -79,106 +79,109 @@ h1 {
     gap: 40px;
 }
 
-.differences-cards-container{
+.differences-cards-container {
     display: flex;
     gap: 70px;
 
 }
 
-.differences-card-tomato{
+.differences-card-tomato {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding:20px;
-    border:1px solid var(--color-secundary-gray);
+    padding: 20px;
+    border: 1px solid var(--color-secundary-gray);
     border-radius: 10px;
     text-align: center;
 }
- 
-.differences-card-tomato h3{
+
+.differences-card-tomato h3 {
     font-family: var(--font-title);
     font-size: var(--font-headline-h3-size);
     width: 181px;
 }
- 
-.differences-card-tomato p{
-    width: 227px;
-    font-family: var(--font-body);
-    color: var(--color-secondary-l-gray);
-    line-height: 30px;
-}
-.differences-card-chef{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding:20px;
-    border:1px solid var(--color-secundary-gray);
-    border-radius: 10px;
-    text-align: center;
-}
- 
-.differences-card-chef h3{
-    font-family: var(--font-title);
-    font-size: var(--font-headline-h3-size);
-    width: 181px;
-}
- 
-.differences-card-chef p{
-    width: 227px;
-    font-family: var(--font-body);
-    color: var(--color-secondary-l-gray);
-    line-height: 30px;
-}
-.differences-card-chair{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding:20px;
-    border:1px solid var(--color-secundary-gray);
-    border-radius: 10px;
-    text-align: center;
-}
- 
-.differences-card-chair h3{
-    font-family: var(--font-title);
-    font-size: var(--font-headline-h3-size);
-    width: 181px;
-}
- 
-.differences-card-chair p{
-    width: 227px;
-    font-family: var(--font-body);
-    color: var(--color-secondary-l-gray);
-    line-height: 30px;
-}
-.differences-card-calendar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding:20px;
-    border:1px solid var(--color-secundary-gray);
-    border-radius: 10px;
-    text-align: center;
-}
- 
-.differences-card-calendar h3{
-    font-family: var(--font-title);
-    font-size: var(--font-headline-h3-size);
-    width: 181px;
-}
- 
-.differences-card-calendar p{
+
+.differences-card-tomato p {
     width: 227px;
     font-family: var(--font-body);
     color: var(--color-secondary-l-gray);
     line-height: 30px;
 }
 
-.differences-card{
+.differences-card-chef {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid var(--color-secundary-gray);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.differences-card-chef h3 {
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    width: 181px;
+}
+
+.differences-card-chef p {
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
+
+.differences-card-chair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid var(--color-secundary-gray);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.differences-card-chair h3 {
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    width: 181px;
+}
+
+.differences-card-chair p {
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
+
+.differences-card-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid var(--color-secundary-gray);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.differences-card-calendar h3 {
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    width: 181px;
+}
+
+.differences-card-calendar p {
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
+
+.differences-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,47 +191,47 @@ h1 {
     border-radius: 10px;
     text-align: center;
 }
- 
-.differences-card h3{
+
+.differences-card h3 {
     font-family: var(--font-title);
     font-size: var(--font-headline-h3-size);
     width: 181px;
 }
- 
-.differences-card p{
+
+.differences-card p {
     width: 227px;
     font-family: var(--font-body);
     color: var(--color-secondary-l-gray);
     line-height: 30px;
 }
 
-.section-chef{
+.section-chef {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
     padding: 60px 0px;
 }
- 
+
 .content-chef {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
- 
-.content-chef h2{
+
+.content-chef h2 {
     width: 433px;
     line-height: 60px;
 }
- 
-.content-chef p{
+
+.content-chef p {
     font-family: var(--font-body);
     color: var(--color-secondary-l-gray);
     width: 503px;
     line-height: 30px;
 }
 
-.section-featured-dishes{
+.section-featured-dishes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,21 +240,21 @@ h1 {
     padding: 60px 0px;
 }
 
-.container-cards-dishes{
+.container-cards-dishes {
     display: flex;
-    gap: 25px;  
-    padding-top:101px;
+    gap: 25px;
+    padding-top: 101px;
 }
 
-.card-dishes{
+.card-dishes {
 
     display: flex;
     width: 300px;
     flex-direction: column;
     gap: 16px;
     background-color: var(--color-secundary-white);
-    align-items: center;                                                                    
-    border-radius:20px 5px 20px 5px ;
+    align-items: center;
+    border-radius: 20px 5px 20px 5px;
     border: 1px solid #D3D3D3;
     text-align: center;
     padding: 123px 15px 45px 15px;
@@ -259,20 +262,47 @@ h1 {
     position: relative;
 }
 
-.card-dishes img{
+.card-dishes img {
     position: absolute;
-    top:-101px;
+    top: -101px;
 }
-.card-dishes h3{
+
+.card-dishes h3 {
     font-size: var(--font-headline-h3-size);
     font-family: var(--font-title);
     width: 174px;
 }
 
-.card-dishes p{
+.card-dishes p {
     font-family: var(--font-body);
     line-height: 30px;
     color: var(--color-secundary-gray);
     width: 271px;
 }
 
+.section-our-environments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 60px;
+}
+
+.container-environments {
+
+    display: flex;
+    gap: 20px;
+}
+
+.container-environments-left {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+.container-environments-left div {
+    display: flex;
+    gap: 29px;
+    
+}
