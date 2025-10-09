@@ -177,3 +177,102 @@ h1 {
     color: var(--color-secondary-l-gray);
     line-height: 30px;
 }
+
+.differences-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid var(--color-secondary-l-gray);
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+.differences-card h3{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+    width: 181px;
+}
+ 
+.differences-card p{
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    line-height: 30px;
+}
+
+.section-chef{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0px;
+}
+ 
+.content-chef {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+ 
+.content-chef h2{
+    width: 433px;
+    line-height: 60px;
+}
+ 
+.content-chef p{
+    font-family: var(--font-body);
+    color: var(--color-secondary-l-gray);
+    width: 503px;
+    line-height: 30px;
+}
+
+.section-featured-dishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary-orange-10);
+    gap: 25px;
+    padding: 60px 0px;
+}
+
+.container-cards-dishes{
+    display: flex;
+    gap: 25px;  
+    padding-top:101px;
+}
+
+.card-dishes{
+
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    gap: 16px;
+    background-color: var(--color-secundary-white);
+    align-items: center;                                                                    
+    border-radius:20px 5px 20px 5px ;
+    border: 1px solid #D3D3D3;
+    text-align: center;
+    padding: 123px 15px 45px 15px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.09);
+    position: relative;
+}
+
+.card-dishes img{
+    position: absolute;
+    top:-101px;
+}
+.card-dishes h3{
+    font-size: var(--font-headline-h3-size);
+    font-family: var(--font-title);
+    width: 174px;
+}
+
+.card-dishes p{
+    font-family: var(--font-body);
+    line-height: 30px;
+    color: var(--color-secundary-gray);
+    width: 271px;
+}
+
