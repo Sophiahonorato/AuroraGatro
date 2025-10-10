@@ -306,3 +306,52 @@ h1 {
     gap: 29px;
     
 }
+
+
+.section-our-reviews{
+    background-color: var(--color-primary-orange-10);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 60px 0px;
+    align-items: center;
+}
+
+.container-reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+
+.card-reviews{
+display: flex;
+flex-direction: column;
+gap: 10px;
+background-color: var(--color-secundary-white);
+border-radius: 40px 8px;
+padding: 25px 20px;
+box-shadow: 0px 0px 6px 0px rgb(0, 0, 0 , 25%);
+}
+
+.card-reviews p{
+    font-family: var(--font-body);
+    color: var(--color-secundary-dark);
+    width:358px;
+}
+
+.client-review{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.client-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.client-name h3{
+    font-family: var(--font-title);
+}
