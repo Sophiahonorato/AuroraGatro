@@ -355,3 +355,75 @@ box-shadow: 0px 0px 6px 0px rgb(0, 0, 0 , 25%);
 .client-name h3{
     font-family: var(--font-title);
 }
+
+.section-reservation{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 60px;
+}
+
+.container-reservation{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.box-input label{
+    font-family: var(--font-body);
+}
+
+.box-input input{
+    border: 1px solid #5C6574;
+    border-radius: 5px;
+    width: 450px;
+    height: 35px;
+}
+
+.container-box-input{
+    display: flex;
+    gap: 10px;
+
+}
+
+.container-box-input input{
+    width: 220px;
+}
+
+.box-input textarea{
+    border: 1px solid #5C6574;
+    border-radius: 5px;
+    width: 450px;
+    height: 100px;
+}
+
+form button{
+    align-self: start;
+    cursor: pointer;
+}
+
+.section-maps {
+display:flex;
+justify-content:center;
+background-color: var(--color-primary-orange-10);
+padding: 60px 0px;
+}
+
+.section-maps iframe{
+    width: 90%;
+    height: 60vh;
+}
