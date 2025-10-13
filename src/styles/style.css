@@ -304,11 +304,11 @@ h1 {
 .container-environments-left div {
     display: flex;
     gap: 29px;
-    
+
 }
 
 
-.section-our-reviews{
+.section-our-reviews {
     background-color: var(--color-primary-orange-10);
     display: flex;
     flex-direction: column;
@@ -317,46 +317,46 @@ h1 {
     align-items: center;
 }
 
-.container-reviews{
+.container-reviews {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 
 }
 
-.card-reviews{
-display: flex;
-flex-direction: column;
-gap: 10px;
-background-color: var(--color-secundary-white);
-border-radius: 40px 8px;
-padding: 25px 20px;
-box-shadow: 0px 0px 6px 0px rgb(0, 0, 0 , 25%);
+.card-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color-secundary-white);
+    border-radius: 40px 8px;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 6px 0px rgb(0, 0, 0, 25%);
 }
 
-.card-reviews p{
+.card-reviews p {
     font-family: var(--font-body);
     color: var(--color-secundary-dark);
-    width:358px;
+    width: 358px;
 }
 
-.client-review{
+.client-review {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.client-name{
+.client-name {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.client-name h3{
+.client-name h3 {
     font-family: var(--font-title);
 }
 
-.section-reservation{
+.section-reservation {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -364,66 +364,141 @@ box-shadow: 0px 0px 6px 0px rgb(0, 0, 0 , 25%);
     padding: 60px;
 }
 
-.container-reservation{
+.container-reservation {
     display: flex;
     justify-content: center;
     gap: 100px;
     align-items: center;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.box-input{
+.box-input {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.box-input label{
+.box-input label {
     font-family: var(--font-body);
 }
 
-.box-input input{
+.box-input input {
     border: 1px solid #5C6574;
     border-radius: 5px;
     width: 450px;
     height: 35px;
 }
 
-.container-box-input{
+.container-box-input {
     display: flex;
     gap: 10px;
 
 }
 
-.container-box-input input{
+.container-box-input input {
     width: 220px;
 }
 
-.box-input textarea{
+.box-input textarea {
     border: 1px solid #5C6574;
     border-radius: 5px;
     width: 450px;
     height: 100px;
 }
 
-form button{
+form button {
     align-self: start;
     cursor: pointer;
 }
 
 .section-maps {
-display:flex;
-justify-content:center;
-background-color: var(--color-primary-orange-10);
-padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary-orange-10);
+    padding: 60px 0px;
 }
 
-.section-maps iframe{
+.section-maps iframe {
     width: 90%;
     height: 60vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px;
+    align-items: center;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.copyright {
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons {
+    background-color: var(--color-secundary-gray);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    transition: 0.3s;
+}
+
+
+.social-icons:hover {
+    background-color: var(--color-primary-orange);
+    transform: translateY(-10px);
+}
+
+
+.container-footer-navegation {
+    display: flex;
+    gap: 80px;
+
+}
+
+.footer-navegation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.footer-navegation h2 {
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+}
+
+.footer-navegation ul {
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-navegation ul li a{
+text-decoration: none;
+color: var(--color-secundary-dark);
+font-family: var(--font-body);
+
 }
